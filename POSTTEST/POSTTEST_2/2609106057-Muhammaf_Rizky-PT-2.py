@@ -1,18 +1,13 @@
 harga_skincare = [35000, 42000, 50000, 55000, 68000, 70000]
-
 ongkir = 12000
-
 total_pengeluaran = harga_skincare[0] + harga_skincare[1] + harga_skincare[2] + harga_skincare[3] + harga_skincare[4] + harga_skincare[5] + ongkir
 
 rata_rata = total_pengeluaran / len(harga_skincare)
-
-nim = 12
-
+nim = 57
 bolean = nim < rata_rata
 
 konversi_jpy = 0.0094
 total_jpy = total_pengeluaran * konversi_jpy
-
 slice_skincare = harga_skincare[-4:-1]
 
 total_rp = f"{total_pengeluaran:,}".replace(",", ".")
